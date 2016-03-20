@@ -1,0 +1,138 @@
+body {
+    background: #DEDEDE;
+}
+
+.top-header {
+    width: 100%;
+    background: #333333;
+    height: 80px;
+    color: #fff;
+}
+
+footer {
+    height: 70px;
+    background: #000;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+.top-header h1 {
+    display: inline-block;
+    width: 30%;
+    margin-left: 41px;
+}
+
+.top-header nav {
+    display: inline-block;
+    float: right;
+    width:50%;
+    margin: 14px 34px 14px 14px;
+    color: #fff;
+}
+
+.top-header nav a {
+    color: #fff;
+}
+
+.top-header nav ul li:first-child a {
+    color: #5E5E5E;
+}
+
+.top-header ul li {
+    display: inline-block;
+    float: right;
+    color: #fff;
+}
+
+article,
+aside {
+    width: 95%;
+    min-width: 95%;
+    margin: 23px auto;
+    background: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+article header,
+article>div,
+article p,
+article img,
+article>span,
+aside header {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+article table {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#articleThree figure {
+    border: 1px solid #5E5E5E;
+    width: 29%;
+    text-align: center;
+}
+#articleThree img {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+#articleFour ol {
+    list-style-type: decimal;
+    margin-left: 40px;
+}
+
+#articleFour table {
+    width: 96%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+#articleFour table, th, td {
+    border: 1px solid #d1d1d1;
+    border-collapse:collapse;
+}
+
+#articleFour tbody tr:last-child {
+    background: #d1d1d1;
+}
+
+#articleFour thead {
+    background-color: #000;
+    color: #fff;
+}
+
+aside h2 {
+    border-left: 3px solid grey;
+    line-height: 35px;
+    padding-left: 10px;
+}
+
+.form-one-left {
+    display: inline-block;
+    width:30%;
+    text-align: right;
+}
+
+.form-one-right {
+    display: inline-block;
+    width:67%;
+    float: right;
+    text-align: left;
+}
+
+aside button {
+    padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    background: #2F59D3;
+    color: #FFFFFF;
+}
