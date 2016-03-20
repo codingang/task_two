@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="top-header">
-        <h1>网站一级标题</h1>
+        <h1>网站LOGO</h1>
         <nav>
             <ul>
                 <li><a href="#">导航链接四</a></li>
@@ -19,7 +19,7 @@
         </nav>
     </header>
 
-    <article>
+    <article id="articleOne">
         <header>
             <h2>文章一级标题</h2>
             <h3>文章二级标题</h3>
@@ -41,7 +41,7 @@
         </p>
     </article>
 
-    <article>
+    <article id="articleTwo">
         <header>
             <h2>另一篇文章一级标题</h2>
             <h3>文章二级标题</h3>
@@ -61,6 +61,9 @@
             <li>列表项目二</li>
             <li>列表项目三</li>
         </ul>
+    </article>
+
+    <article id="articleThree">
         <section>
             <header>
                 <h2>图片</h2>
@@ -108,7 +111,7 @@
         </section>
     </article>
 
-    <article>
+    <article id="articleFour">
         <header>
             <h2>最后一篇文章一级标题</h2>
             <h3>文章二级标题</h3>
@@ -166,27 +169,65 @@
             <h3>侧栏使用aside标签</h3>
         </header>
         <form id="formOne">
-            <p>请输入邮箱地址：<input type="email" placeholder="这是一个文本输入框"></p>
-            <p>邮箱地址请按要求格式输入</p>
-            <p>请输入密码:<input type="password" placeholder="这是一个文本输入框">请重复输入密码<input type="password" placeholder="这是一个文本输入框"></p>
-            <p>密码请为6-16位英文数字</p>
+            <p>
+                <span class="form-one-left">请输入邮箱地址：</span>
+                <span class="form-one-right"><input type="email" placeholder="这是一个文本输入框"></span>
+                <span class="form-one-right">邮箱地址请按要求格式输入</span>
+            </p>
+            <br>
+            <p>
+                <span class="form-one-left">请输入密码:</span>
+                <span class="form-one-right"><input type="password" placeholder="......"></span>
+            </p>
+            <p>
+                <span class="form-one-left">请重复输入密码</span>
+                <span class="form-one-right"><input type="password" placeholder="......"></span>
+                <span class="form-one-right">密码请为6-16位英文数字</span>
+            </p>
+            <br>
+
             <section>
-                性别：
-                <input type="radio" id="male" name="sex" value="male" checked><label for="male">男</label>
-                <input type="radio" id="female" name="sex" value="female"><label for="female">女</label>
-                <label for="formOneSelect">城市：</label>
-                <select name="city" form="formOne" id="formOneSelect">
-                    <option value="beijing" selected>北京</option>
-                    <option value="shanghai">上海</option>
-                    <option value="shenzhen">深圳</option>
-                </select>
-                <label for="sport">爱好：</label>
-                <input id="sport" type="checkbox" value="sport"><label for="sport">运动</label>
-                <input id="art" type="checkbox" value="art"><label for="art">艺术</label>
-                <input id="science" type="checkbox" value="science"><label for="science">科学</label>
-                <label for="formOneTextarea">个人描述：</label>
-                <textarea id="formOneTextarea">这是一个多行输入框，输入您的个人描述</textarea>
-                <button type="submit">确认提交</button>
+                <p>
+                    <span class="form-one-left">性别：</span>
+                    <span class="form-one-right">
+                        <input type="radio" id="male" name="sex" value="male" checked><label for="male">男</label>
+                        <input type="radio" id="female" name="sex" value="female"><label for="female">女</label>
+                    </span>
+                </p>
+                <p>
+                    <span class="form-one-left">
+                        <label for="formOneSelect">城市：</label>
+                    </span>
+                    <span class="form-one-right">
+                        <select name="city" form="formOne" id="formOneSelect">
+                            <option value="beijing" selected>北京</option>
+                            <option value="shanghai">上海</option>
+                            <option value="shenzhen">深圳</option>
+                        </select>
+                    </span>
+                </p>
+                <p>
+                    <span class="form-one-left"><label for="sport">爱好：</label></span>
+                    <span class="form-one-right">
+                        <input id="sport" type="checkbox" value="sport"><label for="sport">运动</label>
+                        <input id="art" type="checkbox" value="art"><label for="art">艺术</label>
+                        <input id="science" type="checkbox" value="science"><label for="science">科学</label>
+                    </span>
+                </p>
+                <p>
+                    <span class="form-one-left">
+                        <label for="formOneTextarea">个人描述：</label>
+                    </span>
+                    <span class="form-one-right">
+                        <textarea id="formOneTextarea" rows="3" cols="50">这是一个多行输入框，输入您的个人描述</textarea>
+                    </span>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <button type="submit">确认提交</button>
+                </div>
+
             </section>
         </form>
     </aside>

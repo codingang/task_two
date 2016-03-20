@@ -73,3 +73,66 @@ article table {
     margin-top: 10px;
     margin-left: 20px;
 }
+
+#articleThree figure {
+    border: 1px solid #5E5E5E;
+    width: 29%;
+    text-align: center;
+}
+#articleThree img {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+#articleFour ol {
+    list-style-type: decimal;
+    margin-left: 40px;
+}
+
+#articleFour table {
+    width: 96%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+#articleFour table, th, td {
+    border: 1px solid #d1d1d1;
+    border-collapse:collapse;
+}
+
+#articleFour tbody tr:last-child {
+    background: #d1d1d1;
+}
+
+#articleFour thead {
+    background-color: #000;
+    color: #fff;
+}
+
+aside h2 {
+    border-left: 3px solid grey;
+    line-height: 35px;
+    padding-left: 10px;
+}
+
+.form-one-left {
+    display: inline-block;
+    width:30%;
+    text-align: right;
+}
+
+.form-one-right {
+    display: inline-block;
+    width:67%;
+    float: right;
+    text-align: left;
+}
+
+aside button {
+    padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    background: #2F59D3;
+    color: #FFFFFF;
+}
